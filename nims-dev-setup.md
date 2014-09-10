@@ -62,8 +62,6 @@ easy_install v0.6.2.tar.gz
 rm v0.6.2.tar.gz
 ```
 
-(+++reminder to self -- put back the references to dcmstack in nimsdicom.py and nimsmydata.py)
-
 Install ipython:
 ```sh
 pip install ipython
