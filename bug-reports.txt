@@ -1,0 +1,4 @@
+nimsapi web page. Click on */listschema. Server error.
+
+nimsapi web page. Click on nimsapi/log. Server error.
+
