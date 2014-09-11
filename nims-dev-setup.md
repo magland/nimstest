@@ -38,7 +38,7 @@ cd ..
 
 Start a python virtual environment:
 ```sh
-cd $HOME  (is this step necessary?)
+cd $HOME
 virtualenv webapp2
 source webapp2/bin/activate
 cd nims
