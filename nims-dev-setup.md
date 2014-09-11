@@ -140,7 +140,7 @@ Run the following commands:
 
 ```python
 import nimsdata
-ds=nimsdata.parse('/path/to/a/tgz/file/from/previous/step')
+ds=nimsdata.parse('/path/to/a/tgz/file/from/previous/step.tgz')
 print ds.nims_type
 print 'project = '+ds.project
 print 'group = '+ds.group
