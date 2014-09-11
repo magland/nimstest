@@ -48,7 +48,7 @@ Each time you log in you should re-run "source webapp2/bin/active" to enter the 
 
 Install the required python packages:
 ```sh
-pip install webapp2 webob paste markdown pillow pydicom requests pycrypto (pycrypto will not be needed in the updated version)
+pip install webapp2 webob paste markdown pillow pydicom requests pymongo pycrypto (note: pycrypto will not be needed in the updated version)
 pip install numpy
 pip install pydicom nibabel
 ```
