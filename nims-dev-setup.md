@@ -127,7 +127,7 @@ Create two directories, one for sorting and one for the tarballs and run the fol
 
 **IMPORTANT AGAIN! This command will move (not copy) your DICOM files. Be sure to use a copy!**
 
-This will create a number of tarballs in the /path/to/tar directory. There will be one .tgz file for each acquisition. Note that dicomsort.py will search the DICOM directory recursively, and it does not matter how the DICOM files are organized or named. Each tarball will contain a metadata.json file describing how the acquisition should be sorted during parsing (next step).
+This will create a number of tarballs in the /path/to/tarballs directory. There will be one .tgz file for each acquisition. Note that dicomsort.py will search the DICOM directory recursively, and it does not matter how the DICOM files are organized or named. Each tarball will contain a metadata.json file describing how the acquisition should be sorted during parsing (next step).
 
 Let's check to see if things were sorted properly. Start ipython after setting the appropriate path:
 ```sh
